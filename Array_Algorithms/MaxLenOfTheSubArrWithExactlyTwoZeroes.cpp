@@ -39,7 +39,9 @@ int MaxLenOfTwoZeroSubArray(int arr[], int n) {
                 MaxLen = CurrLen;
             }
         }
-
+        if (CurrLen > MaxLen) {
+                MaxLen = CurrLen;
+        }
         j++;
     }
 
